@@ -7,6 +7,7 @@ while true do
 	    "virus"
     }
     game:GetService("ReplicatedStorage"):WaitForChild("Reward"):FireServer(unpack(args))
-    game:GetService("ReplicatedStorage").PhoneReward:FireServer()
+    game:GetService("ReplicatedStorage").CallMade:FireServer("made by celebrent")
+    game:GetService("ReplicatedStorage").PhoneReward:FireServer("i swear to fucking god if you skid this") -- i WILL break your kneecaps
     wait(0)
 end
